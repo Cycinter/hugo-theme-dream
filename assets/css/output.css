@@ -62,7 +62,7 @@ html,
 */
 
 body {
-  margin: 0;
+  margin: 10;
   /* 1 */
   line-height: inherit;
   /* 2 */
@@ -759,7 +759,7 @@ html {
 }
 
 .container {
-  width: 100%;
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1293,6 +1293,8 @@ html {
 .avatar > div {
   display: block;
   aspect-ratio: 1 / 1;
+  width: 100px; 
+  height: 100px; 
   overflow: hidden;
 }
 
