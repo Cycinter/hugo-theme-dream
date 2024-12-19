@@ -1,6 +1,6 @@
 # Modification of this fork
-1. Remove avatar and author in the card container. And tags instead in asset/css/output.css
-2. Modify container width with 90% in file asset/css/output.css
+1. Remove avatar and author in the card container. And tags instead. Modified file layouts\_default\summary.html
+2. Modify container width with 90%. Modified in file asset/css/output.css
 
 --- orginal theme --- 
 # 🌱 hugo-theme-dream
