@@ -1,3 +1,8 @@
+# Modification of this fork
+1. Remove avatar and author in the card container. And tags instead in asset/css/output.css
+2. Modify container width with 90% in file asset/css/output.css
+
+--- orginal theme---
 # 🌱 hugo-theme-dream
 
 ![GitHub Release](https://img.shields.io/github/v/release/g1eny0ung/hugo-theme-dream)
