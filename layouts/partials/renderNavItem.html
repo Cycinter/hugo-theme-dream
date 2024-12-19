@@ -14,6 +14,12 @@
 <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="{{ "categories" | relLangURL }}" title="{{ T "allCategories" }}">
   <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
 </a>
+
+{{ else if and (eq . "categories") site.Taxonomies.categories }}
+{{ range where site.Taxonomies.categories "key" "in" (slice "ideas" "tools" "life") }}
+<a class="text-sm font-semibold cursor-pointer hover:underline" href="{{ .Page.RelPermalink }}" title="{{ .Page.Title }}">{{ .Page.Title }}</a>
+{{ end }}
+
 {{ else if and (eq . "tags") site.Taxonomies.tags }}
 <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="{{ "tags" | relLangURL }}" title="{{ T "allTags" }}">
   <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
